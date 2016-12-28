@@ -1,0 +1,140 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+}
+
+.motto{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.actual-motto{
+    padding: 30px;
+}
+
+
+
+.logo{
+    color: #FFF;
+    font-size: 2.3em;
+    font-weight: 300;
+}
+
+.logo-green{
+    color: #63BD10;
+    font-weight: 400;
+}
+
+.all-games{
+    color: #63BD10;
+    font-size: 2em;
+    float: right;
+    display: none;
+}
+
+h1{
+    letter-spacing: 1.1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section .banner {
+    width: 100%;
+}
+
+.game-info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.last-all{
+    height: 100px;
+    text-align: center;
+}
+
+.small-all {
+    margin-top: 130px;
+    font-size: 1.5em;
+}
+
+.small-all a{
+    color: #63BD10;
+}
+
+.game-info h3,p{
+    margin: 0
+}
+
+footer{
+    margin-top: 40px;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+section {
+    margin-top: 110px;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 700px) {
+    .all-games{
+        display: block;
+    }
+
+    section .banner.right{
+        float:right;
+    }
+
+    header{
+        padding-left: 80px;
+        padding-top: 40px;
+        padding-right: 60px;
+        text-align: left; 
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    section .banner{
+        width: 50%;
+        float: left;
+    }
+
+    .game-info{
+        float: right;
+        width: 50%;
+    }
+
+    section {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .last-all{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .small-all{
+        margin-top: 70px;
+        font-size: 1.7em;
+    }
+
+}
